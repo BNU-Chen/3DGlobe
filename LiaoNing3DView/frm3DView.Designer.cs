@@ -136,17 +136,17 @@
             this.axLicenseControl1 = new ESRI.ArcGIS.Controls.AxLicenseControl();
             this.imageList_RibbonVisible = new System.Windows.Forms.ImageList(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.axGlobeControl1 = new ESRI.ArcGIS.Controls.AxGlobeControl();
             this.panelEx_GlobeEye = new System.Windows.Forms.Panel();
             this.axMapControl_GlobeEye = new ESRI.ArcGIS.Controls.AxMapControl();
+            this.axGlobeControl1 = new ESRI.ArcGIS.Controls.AxGlobeControl();
             this.ribbonControl1.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axGlobeControl1)).BeginInit();
             this.panelEx_GlobeEye.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axMapControl_GlobeEye)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axGlobeControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -1389,15 +1389,6 @@
             this.panel1.Size = new System.Drawing.Size(1024, 438);
             this.panel1.TabIndex = 4;
             // 
-            // axGlobeControl1
-            // 
-            this.axGlobeControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.axGlobeControl1.Location = new System.Drawing.Point(0, 0);
-            this.axGlobeControl1.Name = "axGlobeControl1";
-            this.axGlobeControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axGlobeControl1.OcxState")));
-            this.axGlobeControl1.Size = new System.Drawing.Size(1024, 438);
-            this.axGlobeControl1.TabIndex = 6;
-            // 
             // panelEx_GlobeEye
             // 
             this.panelEx_GlobeEye.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -1417,6 +1408,15 @@
             this.axMapControl_GlobeEye.Size = new System.Drawing.Size(189, 130);
             this.axMapControl_GlobeEye.TabIndex = 0;
             // 
+            // axGlobeControl1
+            // 
+            this.axGlobeControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axGlobeControl1.Location = new System.Drawing.Point(0, 0);
+            this.axGlobeControl1.Name = "axGlobeControl1";
+            this.axGlobeControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axGlobeControl1.OcxState")));
+            this.axGlobeControl1.Size = new System.Drawing.Size(1024, 438);
+            this.axGlobeControl1.TabIndex = 6;
+            // 
             // frmMain3DView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1428,7 +1428,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMain3DView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "辽宁沿海经济带三维展示";
+            this.Text = "三维城市展示";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ribbonControl1.ResumeLayout(false);
             this.ribbonControl1.PerformLayout();
@@ -1436,9 +1436,9 @@
             this.ribbonPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.axGlobeControl1)).EndInit();
             this.panelEx_GlobeEye.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axMapControl_GlobeEye)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axGlobeControl1)).EndInit();
             this.ResumeLayout(false);
 
         }
