@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonBaseTool", "CommonBaseTool\CommonBaseTool.csproj", "{4A0C5BA6-12CC-4E9C-8B9C-421E14524CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyAccordingPath", "FlyAccordingPath\FlyAccordingPath.csproj", "{109B077D-A694-4F95-8675-6017E93ECD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GISFunction", "GISFunction\GISFunction.csproj", "{1B147318-2DBB-4555-AF30-BC006A9ACA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GISInfoShow", "GISInfoShow\GISInfoShow.csproj", "{45D16747-52B2-44A2-ACDB-1E3999ECE2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiaoNing3DView", "LiaoNing3DView\LiaoNing3DView.csproj", "{304A808C-CD04-4098-9027-0F9B03E92A6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A0C5BA6-12CC-4E9C-8B9C-421E14524CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0C5BA6-12CC-4E9C-8B9C-421E14524CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0C5BA6-12CC-4E9C-8B9C-421E14524CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0C5BA6-12CC-4E9C-8B9C-421E14524CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109B077D-A694-4F95-8675-6017E93ECD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109B077D-A694-4F95-8675-6017E93ECD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109B077D-A694-4F95-8675-6017E93ECD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109B077D-A694-4F95-8675-6017E93ECD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B147318-2DBB-4555-AF30-BC006A9ACA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B147318-2DBB-4555-AF30-BC006A9ACA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B147318-2DBB-4555-AF30-BC006A9ACA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B147318-2DBB-4555-AF30-BC006A9ACA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D16747-52B2-44A2-ACDB-1E3999ECE2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D16747-52B2-44A2-ACDB-1E3999ECE2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D16747-52B2-44A2-ACDB-1E3999ECE2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D16747-52B2-44A2-ACDB-1E3999ECE2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304A808C-CD04-4098-9027-0F9B03E92A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304A808C-CD04-4098-9027-0F9B03E92A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304A808C-CD04-4098-9027-0F9B03E92A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304A808C-CD04-4098-9027-0F9B03E92A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
