@@ -31,10 +31,10 @@ namespace LiaoNing3DView
     {
 
         #region //变量声明
-        public string AppStartPath = "";    //程序启动路径
+        public string AppStartPath = @"E:\项目 - 2014 沈阳经济区\data\图集\三维地图\\";    //程序启动路径
         public string MxdGlobeEyePath = "";     //鹰眼地图文件路径
         public string GlobeMapPath = "";        //三维地图路径
-        public const string Globe3ddMapName = "辽宁沿海经济带三维浏览.3dd";  //三维地图的路径
+        public const string Globe3ddMapName = "沈阳经济区三维展示.3dd";  //三维地图的路径
         public const string MapMxdGlobeEyeName = "GlobeEye.mxd";    //三维鹰眼地图的名称
         public string DataFoldPath = "";        //系统默认数据路径
 
@@ -82,7 +82,7 @@ namespace LiaoNing3DView
             try
             {
 
-                AppStartPath = Application.StartupPath;
+                //AppStartPath = Application.StartupPath;
 
                 //this.panel1.BackColor = Color.FromArgb(0, Color.Transparent);
                 //重绘GlobeControl鼠标中键，实现缩放
@@ -102,7 +102,7 @@ namespace LiaoNing3DView
             try
             {
                 //初始化系统路径
-                DataFoldPath = AppStartPath + "\\Data\\"; //系统数据文件夹路径
+                DataFoldPath = AppStartPath;// +"\\Data\\"; //系统数据文件夹路径
                 GlobeMapPath = DataFoldPath + Globe3ddMapName;  //定义三维地图路径
                 MxdGlobeEyePath = DataFoldPath + MapMxdGlobeEyeName;    //定义鹰眼地图路径
 
